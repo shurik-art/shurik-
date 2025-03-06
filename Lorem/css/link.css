@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#100e19;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rick {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+h1 {
+    color: gold;
+    font-family: cursive;
+}
+h2 {
+    color: gold;
+}
+.opinion {
+    padding: 160px 0;
+}
+.opinion-subtitle {
+    margin-bottom: 100px;
+}
+.opinion-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.opinion-item {
+    width: 100%;
+    max-width: 294px;
+    background-color: #fff;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+    padding: 32px 31px;
+}
+.opinion-item-text {
+    font-family: "Merriweather", "Georgia", serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.53;
+    color: #1B1F2B;
+    margin-bottom: 18px;
+}
+.opinion-item-stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+    color: rgb(242, 167, 0);
+    margin-bottom: 24px;
+}
+.opinion-item-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.opinion-item-footer i {
+    font-size: 40px;
+    color: #28514F;
+}
+.opinion-item-footer div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 400;
+}
+.opinion-item-footer span:first-child {
+    line-height: 1.2;
+    color: #1B1F2B;
+}
+.opinion-item-footer span:last-child {
+    font-size: 14px;
+    line-height: 1.2;
+}
